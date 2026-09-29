@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const EMAIL = "info@acasadosacevedo.com";
+const EMAIL = "ayuda@maior5apartamentos.es";
 const TELEFONO = "+34 659 11 80 06";
 
 // Ruta del endpoint (app/api/contacto/route.ts). Cámbiala si tu carpeta se llama distinto.
