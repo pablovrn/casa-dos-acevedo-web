@@ -1,10 +1,8 @@
 interface Props {
   imagen: string;
-  capacidad: number;
-  metros: number;
 }
 
-export default function Hero({ imagen}: Props) {
+export default function Hero({ imagen }: Props) {
   return (
     <section id="inicio" className="relative flex min-h-[100svh] items-end text-hueso">
       <img src={imagen} alt="Salón del apartamento en A casa dos Acevedo de Maior" className="absolute inset-0 h-full w-full object-cover" />
