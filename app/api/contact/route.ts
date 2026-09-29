@@ -52,8 +52,7 @@ export async function POST(request: Request) {
       text: [
         `Nombre: ${nombre}`,
         `Email: ${email}`,
-        `Entrada: ${String(body.entrada ?? "").trim()}`,
-        `Salida: ${String(body.salida ?? "").trim()}`,
+        `Apartamento: ${apartamento}`, 
         "",
         mensaje,
       ]

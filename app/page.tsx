@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Navbar />
       <main>
-        <Hero imagen={apartamento.imagen}/>
+        <Hero imagen={apartamento.imagen} />
         <Historia />
         <Apartamento data={apartamento} />
         <Ubicacion />

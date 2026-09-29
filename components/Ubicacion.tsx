@@ -1,7 +1,8 @@
 // TODO: sustituir por la dirección real (mejora la precisión del mapa)
 const DIRECCION = "Plaza Maior, Verín, Galicia";
-const BUSQUEDA = "A casa dos Acevedo de Maior";
-const MAPA_URL = `https://www.google.com/maps?q=${encodeURIComponent(BUSQUEDA)}&output=embed`;
+const LAT = 41.9414432;
+const LNG = -7.4380362;
+const MAPA_URL = `https://www.google.com/maps?q=Praza+Maior,+Ver%C3%ADn&output=embed`;
 
 export default function Ubicacion() {
   return (

@@ -5,8 +5,7 @@ import { useState } from "react";
 const EMAIL = "ayuda@maior5apartamentos.es";
 const TELEFONO = "+34 659 11 80 06";
 
-// Ruta del endpoint (app/api/contacto/route.ts). Cámbiala si tu carpeta se llama distinto.
-const ENDPOINT = "/api/contacto";
+const ENDPOINT = "/api/contact";
 const APARTAMENTO = "A casa dos Acevedo";
 
 type Estado =
@@ -102,12 +101,22 @@ export default function Contacto() {
               placeholder="tu@email.com"
             />
           </label>
-          <div className="grid grid-cols-1 gap-4 min-[400px]:grid-cols-2">
-            <label className="block">Entrada
-              <input type="date" className={campo} value={entrada} onChange={(e) => setEntrada(e.target.value)} />
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <label className="block min-w-0">Entrada
+              <input
+                type="date"
+                className={`${campo} min-h-11 appearance-none`}
+                value={entrada}
+                onChange={(e) => setEntrada(e.target.value)}
+              />
             </label>
-            <label className="block">Salida
-              <input type="date" className={campo} value={salida} onChange={(e) => setSalida(e.target.value)} />
+            <label className="block min-w-0">Salida
+              <input
+                type="date"
+                className={`${campo} min-h-11 appearance-none`}
+                value={salida}
+                onChange={(e) => setSalida(e.target.value)}
+              />
             </label>
           </div>
           <label className="block">Mensaje
