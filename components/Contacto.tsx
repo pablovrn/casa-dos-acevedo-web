@@ -6,7 +6,7 @@ const EMAIL = "ayuda@maior5apartamentos.es";
 const TELEFONO = "+34 659 11 80 06";
 
 const ENDPOINT = "/api/contact";
-const APARTAMENTO = "A casa dos Acevedo";
+const APARTAMENTO = "Casa dos Acevedo";
 
 type Estado =
   | { tipo: "reposo" }

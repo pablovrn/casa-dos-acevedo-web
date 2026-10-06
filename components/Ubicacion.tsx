@@ -10,7 +10,7 @@ export default function Ubicacion() {
       <div className="mx-auto max-w-6xl px-5">
         <h2 className="font-serif text-3xl sm:text-5xl">Ubicación</h2>
         <p className="mt-4 max-w-xl font-serif text-lg leading-8 text-piedra/90">
-          A casa dos Acevedo · de Maior5 apartamentos.
+          Casa dos Acevedo · de Maior5 apartamentos.
         </p>
         <p className="mt-1 text-piedra/80">{DIRECCION}</p>
 

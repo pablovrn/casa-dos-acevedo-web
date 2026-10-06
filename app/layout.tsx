@@ -6,9 +6,9 @@ const newsreader = Newsreader({ subsets: ["latin"], variable: "--font-newsreader
 const instrument = Instrument_Sans({ subsets: ["latin"], variable: "--font-instrument" });
 
 export const metadata: Metadata = {
-  title: "A casa dos Acevedo - de Maior5 apartamentos",
+  title: "Casa dos Acevedo - de Maior5 apartamentos",
   description:
-    "A casa dos Acevedo: apartamentos vacacionales. Apartamento vacacional en pleno corazón de la villa de Verín.",
+    "Casa dos Acevedo: apartamentos vacacionales. Apartamento vacacional en pleno corazón de la villa de Verín.",
 };
 
 export const viewport: Viewport = {

@@ -9,7 +9,7 @@ export default function Hero({ imagen }: Props) {
       <div className="absolute inset-0 bg-gradient-to-t from-piedra/90 via-piedra/40 to-piedra/10" />
       <div className="relative mx-auto w-full max-w-6xl px-5 pb-[calc(3rem+env(safe-area-inset-bottom))] pt-28 sm:pb-24">
         <h1 className="max-w-3xl font-serif text-4xl leading-[1.05] min-[400px]:text-5xl sm:text-6xl lg:text-7xl">
-          A casa dos Acevedo
+          Casa dos Acevedo
         </h1>
         <h2 className="mt-5 max-w-xl text-lg leading-relaxed text-hueso/80 sm:text-xl sm:leading-relaxed">
           de Maior5 apartamentos

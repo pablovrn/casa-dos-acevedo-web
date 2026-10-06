@@ -19,7 +19,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-14 max-w-6xl items-center justify-between px-5" aria-label="Principal">
         <a href="#inicio" onClick={() => setAbierto(false)} className="font-serif text-lg">
-          A casa dos Acevedo
+          Casa dos Acevedo
         </a>
 
         <ul className="hidden gap-6 text-sm md:flex">
